@@ -16,6 +16,7 @@ export type setOnDTyp = Dispatch<SetStateAction<OnDeskProjects[] | undefined>>;
 
 export type TabTypes =
   | "onDesk"
+  | "All"
   | "unapproved"
   | "notice"
   | "muchulka"
@@ -25,6 +26,7 @@ export type TabTypes =
 
 export type TabTy =
   | "OnDesk"
+  |"All"
   | "Unapproved"
   | "Notice"
   | "Muchulka"

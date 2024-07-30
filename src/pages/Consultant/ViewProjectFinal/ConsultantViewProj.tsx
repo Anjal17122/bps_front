@@ -280,6 +280,20 @@ const ConsultantViewProj = () => {
                 </>
               ),
             },
+            {
+              key: "8",
+              label: (
+                <span>
+                  All.. &nbsp;
+                  <HourglassOutlined style={{ color: "darkblue" }} />
+                </span>
+              ),
+              children: (
+                <>
+                  <NotSubmittedTable onForwardProject={onForwardProject} />
+                </>
+              ),
+            },
           ]}
         ></Tabs>
       </div>

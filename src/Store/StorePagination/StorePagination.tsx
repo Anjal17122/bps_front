@@ -5,6 +5,8 @@ const reducer = (state: PageState, action: ActionsPage): PageState => {
   switch (action.type) {
     case AcP.setOnDeskPage:
       return { ...state, OnDeskPage: action.payload };
+    case AcP.setAllPage:
+      return { ...state, AllPage: action.payload };
     case AcP.setUnapprovedPage:
       return { ...state, UnapprovedPage: action.payload };
     case AcP.setNoticePage:
@@ -50,6 +52,7 @@ const reducer = (state: PageState, action: ActionsPage): PageState => {
 
 const initialState: PageState = {
   OnDeskPage: 0,
+  AllPage: 0,
   UnapprovedPage: 0,
   NoticePage: 0,
   MuchulkaPage: 0,
@@ -78,6 +81,7 @@ export const {
 
 export function useStorePage() {
   const OnDeskPage = useStoreState("OnDeskPage");
+  const AllPage = useStoreState("AllPage");
   const UnapprovedPage = useStoreState("UnapprovedPage");
   const NoticePage = useStoreState("NoticePage");
   const MuchulkaPage = useStoreState("MuchulkaPage");
@@ -99,6 +103,7 @@ export function useStorePage() {
 
   return {
     OnDeskPage,
+    AllPage,
     UnapprovedPage,
     NoticePage,
     MuchulkaPage,

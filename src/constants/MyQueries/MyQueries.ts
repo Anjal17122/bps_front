@@ -1,5 +1,6 @@
 export const MyQueries = {
   OnDesk: "OnDesk",
+  AllPage: "AllPage",
   Unapproved: "Unapproved",
   Notice: "Notice",
   Muchulka: "Muchulka",

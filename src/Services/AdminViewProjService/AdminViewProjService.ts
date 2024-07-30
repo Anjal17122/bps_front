@@ -58,9 +58,6 @@ export const GETcommentsFinal = (
 export const GETonDeskAll = (url: string, messageApi: MessageInstance) =>
   MyApi.get<ResOnDesk>(url, messageApi);
 
-export const GETAllProjects = (page: string|number, size:string|number, messageApi: MessageInstance) =>
-  MyApi.get<ResOnDesk>("/project/perma/all?page="+page+"&size="+size, messageApi);
-
 export const GETdigiSignTab = (url: string, messageApi: MessageInstance) =>
   MyApi.get<ResDigiSignTab>(url, messageApi);
 

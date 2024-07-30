@@ -8,7 +8,7 @@ import { size } from "../constants/constants";
 const MyApi = new ApiService(BASE_URL);
 
 export const getNoticeApprovedCon = (page: number) =>
-  get<ResOnDesk>(`/project/perma/own/notice/published?page=${page}&size=10`);
+  get<ResOnDesk>(`/project/perma/own/notice/published?page=${page}&size=10`); 
 
 export const GETnoticeApprovedCo = (
   page: number,

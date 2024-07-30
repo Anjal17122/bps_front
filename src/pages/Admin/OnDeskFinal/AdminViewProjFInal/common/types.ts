@@ -29,4 +29,6 @@ export type TabTy =
   | "Muchulka"
   | "Approved"
   | "Returned"
-  | "Revision";
+  | "Revision"
+  | "All";
+

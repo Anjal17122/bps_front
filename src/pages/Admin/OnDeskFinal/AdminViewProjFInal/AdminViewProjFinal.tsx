@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import {
   CheckCircleOutlined,
   EditOutlined,
@@ -11,6 +11,7 @@ import { FilterWards } from "../../../../Common/Constants";
 import { toList } from "../../../../Common/Form/FormData";
 import MyInfoBtn from "../../../../Common/InfoIcon/MyInfoBtn";
 import OnDeskTableFinal from "./OnDeskFinal/OnDeskTableFinal";
+import AllTableFinal from "./AllProjectFinal/AllTableFinal";
 import { ActionType, MyStore } from "../../../../Store/ContextApi";
 import { useNavigate } from "react-router-dom";
 import { ProjStoreProvider } from "./ProjContext";
@@ -59,7 +60,7 @@ import AgreementModal from "../../../common/Agreement/AgreementModal";
 
 const AdminViewProjFinal = () => {
   const history = useNavigate();
-
+  const [ward, setWard] = useState("0");
   const { dispatch } = useContext(MyStore);
 
   const {
@@ -350,6 +351,50 @@ const AdminViewProjFinal = () => {
                     <RevisionTableFinal onViewProject={onViewProject} />
                   </>
                 ),
+              },
+              {
+                key: "9",
+                label: (
+                  <span>
+                    {CheckCircle}
+                    All &nbsp;
+                    <MyInfoBtn info="All Projects" />
+                  </span>
+                ),
+                children: (
+                  <>
+                    <SearchBar type="All" ward={ward}>
+                      {getRole() === "ROLE_Ward" ? null : (
+                        <Cascader
+                          placeholder="Ward"
+                          style={{ width: 80 }}
+                          options={toList(FilterWards)}
+                          onChange={(val) => {
+                            setWard(String(val[0]));
+                            dispatchPage({
+                              type: AcP.setAllPage,
+                              payload: 0,
+                            });
+                            dispatchUrl({
+                              type: AcUrl.setAllUrl,
+                              payload: UrlsOnDesk(
+                                AcGetUrls.AllSearchByWard,
+                                val[0]
+                              ),
+                            });
+                          }}
+                        />
+                      )}
+                    </SearchBar>
+                    <AllTableFinal onViewProject={onViewProject} />
+                  </>
+                ),
+                // children: (
+                //   <>
+                //     <SearchBar type="Revision" />
+                //     <RevisionTableFinal onViewProject={onViewProject} />
+                //   </>
+                // ),
               },
             ]}
           ></Tabs>

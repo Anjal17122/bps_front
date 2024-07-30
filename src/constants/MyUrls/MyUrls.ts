@@ -1,7 +1,8 @@
 export const UrlsOnDesk = (
   actions: AcGetUrls,
   payload: string | number,
-  payload2 = ""
+  payload2 = "",
+  payload3 ="",
 ): string => {
   switch (actions) {
     // On desk
@@ -20,11 +21,28 @@ export const UrlsOnDesk = (
     case AcGetUrls.OnDeskSearchByDate:
       return `/project/perma/on/desk/search/by/date?startDate=${payload}&endDate=${payload2}&page=`;
 
+    // All
+    case AcGetUrls.AllSearchByWard:
+      return `/project/perma/all/search?name=ward&value=${payload}&ward=${payload}&page=`;
+
+    case AcGetUrls.AllSearchById:
+      return `/project/perma/all/search?name=id&value=${payload}&ward=0&page=`;
+
+    case AcGetUrls.AllSearchByName:
+      return `/project/perma/all/search?name=applicant&value=${payload}&ward=0&page=`;
+
+    case AcGetUrls.AllSearchByKittaNo:
+      return `/project/perma/all/search?name=kittano&value=${payload}&ward=0&page=`;
+
+    case AcGetUrls.AllSearchByDate:
+      return `/project/perma/all/search/date?startDate=${payload}&endDate=${payload2}&wardId=${payload3}&page=`;
+    case AcGetUrls.AllSearchByNameAndWard:
+      return  `/project/perma/all/search?name=applicant&value=${payload}&ward=${payload2}&page=`;
+
     //   Unapproved
 
     case AcGetUrls.UnapprovedSearchByWard:
       return `/project/perma/filter/by/desk?desk=WARD&ward=${payload}&page=`;
-      
     case AcGetUrls.UnapprovedSearchById:
       return `/project/perma/unapproved/search/by/projectid?id=${payload}&page=`;
 
@@ -166,6 +184,13 @@ export enum AcGetUrls {
   OnDeskSearchByWard = "OnDeskSearchByWard",
   OnDeskSearchByDate = "OnDeskSearchByDate",
 
+  AllSearchById = "AllSearchById",
+  AllSearchByName = "AllSearchByName",
+  AllSearchByKittaNo = "AllSearchByKittaNo",
+  AllSearchByWard = "AllSearchByWard",
+  AllSearchByDate = "AllSearchByDate",
+  AllSearchByNameAndWard = "AllSearchByNameAndWard",
+
   UnapprovedSearchById = "UnapprovedSearchById",
   UnapprovedSearchByName = "UnapprovedSearchByName",
   UnapprovedSearchByKittaNo = "UnapprovedSearchByKittaNo",
@@ -213,6 +238,4 @@ export enum AcGetUrls {
   NirmanSampannaSearchByKittaNo = "NirmanSampannaSearchByKittaNo",
   NirmanSampannaSearchByWard = "NirmanSampannaSearchByWard",
   NirmanSampannaSearchByDate = "NirmanSampannaSearchByDate",
-
-
 }

@@ -45,6 +45,7 @@ import NewMuchulkaModal from "./Modals/NewMuchulkaModal";
 import SarjiminMuchulkaModal from "./Modals/SarjiminMuchulkaModal";
 import DigitalSignatureTableFinal from "./DigitalSignatureTableFinal/DigitalSignatureTableFinal";
 import { isNagarjun } from "../../../../constants/CommonFunctions";
+import AllTableFinal from "./AllProjectFinal/AllTableFinal";
 
 const AdminViewProjOnDesk = () => {
   const history = useNavigate();
@@ -247,7 +248,7 @@ const AdminViewProjOnDesk = () => {
       label: (
         <span>
           <RetweetOutlined style={{ color: "red" }} />
-          Revisionn &nbsp;
+          Revision &nbsp;
           <MyInfoBtn info="Revision of Approved Projects" />
         </span>
       ),
@@ -255,6 +256,28 @@ const AdminViewProjOnDesk = () => {
         <>
           <SearchBar type="Revision" />
           <RevisionTableFinal onViewProject={onViewProject} />
+        </>
+      ),
+    },
+    {
+      key: "7",
+      label: (
+        <span>
+          <EnvironmentOutlined />
+          All &nbsp;
+          <MyInfoBtn info="Projects On Current Desk" />
+        </span>
+      ),
+      children: (
+        <>
+          <SearchBar type="OnDesk">
+            <Cascader
+              placeholder="Ward"
+              style={{ width: 80 }}
+              options={toList(FilterWards)}
+            />
+          </SearchBar>
+          <AllTableFinal onViewProject={onViewProject} />
         </>
       ),
     },

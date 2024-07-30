@@ -455,7 +455,6 @@ function App() {
               element={<ResetPasswordLink />}
             />
             <Route path="forgotpassword-step1" element={<ForgotPassword1 />} />
-
             <Route path="forgotpassword-step2" element={<ForgotPassword2 />} />
             <Route path="downloads" element={<PublicDownloads />} />
             <Route path="notice" element={<PubNotice />} />

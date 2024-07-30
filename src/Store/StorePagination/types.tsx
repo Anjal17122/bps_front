@@ -1,5 +1,6 @@
 export enum AcP {
   setOnDeskPage = "setOnDeskPage",
+  setAllPage = "setAllPage",
   setUnapprovedPage = "setUnapprovedPage",
   setNoticePage = "setNoticePage",
   setMuchulkaPage = "setMuchulkaPage",
@@ -25,6 +26,7 @@ export type ActionsPage = { type: AcP; payload: number };
 export type PageState = {
   DigiSignPage: number;
   OnDeskPage: number;
+  AllPage: number;
   UnapprovedPage: number;
   NoticePage: number;
   MuchulkaPage: number;

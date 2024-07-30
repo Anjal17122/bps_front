@@ -13,9 +13,10 @@ import { TabTy } from "../types/typesAdminViewProj";
 interface Props {
   type: TabTy;
   children?: React.ReactNode;
+  ward?: string;
 }
 
-const SearchBar = ({ type, children }: Props) => {
+const SearchBar = ({ type, children, ward }: Props) => {
   return (
     <div className="tabWrapper">
       <div className="TableHead">
@@ -41,10 +42,21 @@ const SearchBar = ({ type, children }: Props) => {
               type: ("set" + type + "Page") as AcP,
               payload: 0,
             });
-            dispatchUrl({
-              type: ("set" + type + "Url") as AcUrl,
-              payload: UrlsOnDesk((type + "SearchByName") as AcGetUrls, name),
-            });
+            if (type === "All" && ward != "0") {
+              dispatchUrl({
+                type: ("set" + type + "Url") as AcUrl,
+                payload: UrlsOnDesk(
+                  (type + "SearchByNameAndWard") as AcGetUrls,
+                  name,
+                  ward
+                ),
+              });
+            } else {
+              dispatchUrl({
+                type: ("set" + type + "Url") as AcUrl,
+                payload: UrlsOnDesk((type + "SearchByName") as AcGetUrls, name),
+              });
+            }
           }}
         />
         <SearchBtn
@@ -76,14 +88,26 @@ const SearchBar = ({ type, children }: Props) => {
               const endDate = dayjs(
                 values ? values[1]?.toString() : new Date()
               ).format("YYYY-MM-DD");
-              dispatchUrl({
-                type: ("set" + type + "Url") as AcUrl,
-                payload: UrlsOnDesk(
-                  (type + "SearchByDate") as AcGetUrls,
-                  startDate,
-                  endDate
-                ),
-              });
+              if (type === "All") {
+                dispatchUrl({
+                  type: ("set" + type + "Url") as AcUrl,
+                  payload: UrlsOnDesk(
+                    (type + "SearchByDate") as AcGetUrls,
+                    startDate,
+                    endDate,
+                    ward
+                  ),
+                });
+              } else {
+                dispatchUrl({
+                  type: ("set" + type + "Url") as AcUrl,
+                  payload: UrlsOnDesk(
+                    (type + "SearchByDate") as AcGetUrls,
+                    startDate,
+                    endDate
+                  ),
+                });
+              }
             }}
           />
         </div>

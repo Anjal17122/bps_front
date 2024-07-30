@@ -5,6 +5,8 @@ const reducer = (state: UrlState, action: ActionsUrl): UrlState => {
   switch (action.type) {
     case AcUrl.setOnDeskUrl:
       return { ...state, OnDeskUrl: action.payload };
+    case AcUrl.setAllUrl:
+      return { ...state, AllUrl: action.payload };
     case AcUrl.setUnapprovedUrl:
       return { ...state, UnapprovedUrl: action.payload };
     case AcUrl.setNoticeUrl:
@@ -35,6 +37,7 @@ const reducer = (state: UrlState, action: ActionsUrl): UrlState => {
 
 export const initialUrl: UrlState = {
   OnDeskUrl: "/project/perma/on/desk?page=",
+  AllUrl: "/project/perma/all?page=",
   UnapprovedUrl: "/project/perma/pending?page=",
   NoticeUrl: "/project/perma/notice/published?page=",
   MuchulkaUrl: "/project/perma/muchulka?page=",
@@ -53,6 +56,7 @@ export const initialUrl: UrlState = {
 
 export const initialState: UrlState = {
   OnDeskUrl: "/project/perma/on/desk?page=",
+  AllUrl: "/project/perma/all?page=",
   UnapprovedUrl: "/project/perma/pending?page=",
   NoticeUrl: "/project/perma/notice/published?page=",
   MuchulkaUrl: "/project/perma/muchulka?page=",
@@ -78,6 +82,7 @@ export const {
 
 export function useStoreUrl() {
   const OnDeskUrl = useStoreState("OnDeskUrl");
+  const AllUrl = useStoreState("AllUrl");
   const UnapprovedUrl = useStoreState("UnapprovedUrl");
   const NoticeUrl = useStoreState("NoticeUrl");
   const MuchulkaUrl = useStoreState("MuchulkaUrl");
@@ -93,6 +98,7 @@ export function useStoreUrl() {
 
   return {
     OnDeskUrl,
+    AllUrl,
     UnapprovedUrl,
     NoticeUrl,
     MuchulkaUrl,

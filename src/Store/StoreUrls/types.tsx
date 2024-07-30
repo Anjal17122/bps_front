@@ -1,5 +1,6 @@
 export enum AcUrl {
   setOnDeskUrl = "setOnDeskUrl",
+  setAllUrl = "setAllUrl",
   setUnapprovedUrl = "setUnapprovedUrl",
   setNoticeUrl = "setNoticeUrl",
   setMuchulkaUrl = "setMuchulkaUrl",
@@ -17,6 +18,7 @@ export type ActionsUrl = { type: AcUrl; payload: string };
 
 export type UrlState = {
   OnDeskUrl: string;
+  AllUrl: string;
   UnapprovedUrl: string;
   NoticeUrl: string;
   MuchulkaUrl: string;
