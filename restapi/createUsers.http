@@ -1,0 +1,46 @@
+POST https://naksapass-api.dhulikhelmun.gov.np/person/perma/admin
+content-type: application/json
+
+{
+  "nameEng": "Test Ward",
+  "nameNep": "Test Ward",
+  "email": "test.ward@gmail.com",
+  "primaryPhone": "9800000",
+  "personRoleId": 5,  // for ward
+  "citizenshipNo": "",
+  "citizenIssueDist": "Butwal",
+  "citizenIssueDate": "2050-10-10",
+  "fatherNameNep": "Test Ward",
+  "fatherNameEng": "Test Ward",
+  "grandfatherNameEng": "Test Ward",
+  "grandfatherNameNep": "Test Ward",
+  "gender": "male",
+  "maritalStatus": "unmarried",
+  "panNo": "",
+  "user": {
+    "username": "test.ward@gmail.com",
+    "password": "tester121"
+  },
+  "addresses": [
+    {
+      "provinceId": 1,
+      "districtId": 1,
+      "municipalityId": 1,
+      "wardId": 1,
+      "type": 0,
+      "toleNep": "Test Operator",
+      "toleEng": "Test Operator"
+    },
+    {
+      "provinceId": 1,
+      "districtId": 1,
+      "municipalityId": 1,
+      "wardId": 1,
+      "type": 1,
+      "toleNep": "Test Operator",
+      "toleEng": "Test Operator"
+    }
+  ],
+  "citizenshipFileName": "",
+  "photoFileName": ""
+}

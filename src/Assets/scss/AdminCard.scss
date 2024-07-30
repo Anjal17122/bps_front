@@ -1,0 +1,53 @@
+.AdminCard {
+  background-color: white;
+  display: flex;
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.25);
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  .icon {
+    // border: 1px solid #0fac24;
+    border-radius: 500px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #38c947;
+    margin-right: 40px;
+
+    background-color: rgba(56, 201, 71, 0.175);
+  }
+  .switch {
+    width: 120px;
+    align-items: center;
+    display: flex;
+    .items {
+      padding: 0 8px;
+      .changepw {
+        background-color: rgba(255, 186, 10, 0.2);
+        display: flex;
+        align-items: center;
+        height: 25px;
+        padding: 2px 8px;
+      }
+      .morebtn {
+        // background-color: transparent;
+        border: none;
+        height: auto;
+        padding: 4px 2px;
+        // background-color: rgba(167, 167, 167, 0.19);
+      }
+    }
+  }
+  .name {
+    flex: 1;
+    color: rgba(9, 62, 95, 0.759);
+    span {
+      color: #2fa2cf;
+      font-size: 12px;
+    }
+  }
+}

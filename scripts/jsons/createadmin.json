@@ -1,0 +1,42 @@
+{
+  "nameEng": "Test Engineer",
+  "email": "test.engineer@gmail.com",
+  "primaryPhone": "",
+  "personRoleId": 3,
+  "citizenshipNo": "",
+  "citizenIssueDist": "Butwal",
+  "citizenIssueDate": "2050-10-10",
+  "fatherNameNep": "Test Engineer",
+  "fatherNameEng": "Test Engineer",
+  "grandfatherNameEng": "Test Engineer",
+  "grandfatherNameNep": "Test Engineer",
+  "gender": "male",
+  "maritalStatus": "unmarried",
+  "panNo": "",
+  "user": {
+    "username": "test.engineer@gmail.com",
+    "password": "tester121"
+  },
+  "addresses": [
+    {
+      "provinceId": 1,
+      "districtId": 1,
+      "municipalityId": 1,
+      "wardId": 1,
+      "type": 0,
+      "toleNep": "Test Engineer",
+      "toleEng": "Test Engineer"
+    },
+    {
+      "provinceId": 1,
+      "districtId": 1,
+      "municipalityId": 1,
+      "wardId": 1,
+      "type": 1,
+      "toleNep": "Test Engineer",
+      "toleEng": "Test Engineer"
+    }
+  ],
+  "citizenshipFileName": "1667204125993_test.jpg",
+  "photoFileName": "1667204066630_userison.png"
+}

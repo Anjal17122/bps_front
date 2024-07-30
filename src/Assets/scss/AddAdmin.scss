@@ -1,0 +1,20 @@
+.AddAdminWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .AddAdmin {
+    border-top: 3px solid rgb(35, 168, 221);
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.25);
+    overflow: auto;
+    width: 800px;
+    padding: 2% 5%;
+    margin: 2%;
+    background-color: white;
+    h1 {
+      padding-bottom: 20px;
+    }
+    label {
+      color: #20334693;
+    }
+  }
+}

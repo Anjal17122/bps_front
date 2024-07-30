@@ -1,0 +1,22 @@
+.PlinthCert {
+  position: relative;
+  padding: 0 80px;
+  h1 {
+    color: red !important;
+    text-align: center;
+    font-weight: 600;
+  }
+  .RedTitle {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    color: red;
+  }
+  p {
+    margin: 0;
+  }
+  .TitleDivs {
+    display: flex;
+    justify-content: space-between;
+  }
+}

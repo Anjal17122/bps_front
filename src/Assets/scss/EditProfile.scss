@@ -1,0 +1,9 @@
+.AddressWrapper {
+  display: flex;
+  flex-flow: column;
+  .AddressDivs {
+    margin-bottom: 15px;
+    background-color: rgba(222, 189, 235, 0.548);
+    padding: 2% 5%;
+  }
+}

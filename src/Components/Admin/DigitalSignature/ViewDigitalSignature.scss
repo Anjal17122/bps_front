@@ -1,0 +1,44 @@
+.ViewDigitalSignature {
+  display: flex;
+  flex-flow: row;
+  font-family: "nunito";
+
+  .ViewPdf {
+    height: 94vh;
+    // background-color: cadetblue;
+    width: 60%;
+  }
+
+  .SignData {
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+    width: 40%;
+    .TitleWrapper {
+      padding: 4% 3% 1% 4%;
+      margin: 2%;
+      background-color: white;
+      h2 {
+        line-height: 14px;
+      }
+      span {
+        color: rgb(150, 150, 150);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .ViewDigitalSignature {
+    flex-flow: column;
+
+    .ViewPdf {
+      height: 95vh;
+      width: 100%;
+    }
+
+    .SignData {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

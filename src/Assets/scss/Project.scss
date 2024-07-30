@@ -1,0 +1,68 @@
+@import "./variables.scss";
+
+.landownerdiv {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 0 2%;
+  .addressdiv {
+    background-color: #f0f0f0;
+    border-left: 2px solid skyblue;
+  }
+  div {
+    padding: 10px 5px;
+  }
+  p {
+    margin: 5px 10px;
+    // font-size: 14px;
+  }
+}
+
+.LandInfodiv {
+  display: flex;
+  margin: 10px 0;
+  background-color: white;
+  box-shadow: $boxShadow1;
+  h4 {
+    margin: 0;
+  }
+  #content {
+    padding: 20px;
+    flex: 1;
+    #details {
+      display: flex;
+      justify-content: space-between;
+      // padding-bottom: 10px;
+    }
+    #secondRow {
+      display: flex;
+
+      #areaWrapper {
+        background-color: rgb(230, 230, 230);
+        padding: 5px 20px;
+        margin-top: 10px;
+        border: 1px solid grey;
+        flex: 1;
+        margin-right: 10px;
+        #meter {
+          width: 38%;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      #remarks {
+        padding: 0 10px;
+        margin-top: 10px;
+        width: 250px;
+        border: 1px solid grey;
+        overflow-y: auto;
+        height: 80px;
+        font-weight: 500;
+        div {
+          font-weight: normal;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

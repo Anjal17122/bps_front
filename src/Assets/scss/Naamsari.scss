@@ -1,0 +1,23 @@
+.Naamsari {
+  background-color: rgb(240, 240, 240);
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  overflow: hidden;
+  //   justify-content: center;
+  .SearchWrapper {
+    padding: 2% 5%;
+    margin: 2%;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.25);
+    .select {
+      width: 150px;
+    }
+  }
+  .TableWrapper {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+  }
+}

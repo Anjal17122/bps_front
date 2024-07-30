@@ -1,0 +1,60 @@
+// export interface BuildingAreaTyp {
+export const bj3bk5343 = "";
+//   highTClass: string[];
+//   highTClassRemark: string;
+//   highTSetback: string[];
+//   highTSetbackRemark: string;
+//   nature: string[];
+//   natureRemark: string;
+//   riverClass: string[];
+//   riverClassRemark: string;
+//   riverSetback: string[];
+//   riverSetbackRemark: string;
+//   subzone: string[];
+//   subzoneRemark: string;
+//   zone: string[];
+//   zoneRemark: string;
+// }
+
+// export interface LandareaTyp {
+//   CulDeSac: string[];
+//   CulDeSacRemark: string;
+//   FAR: string[];
+//   FARRemark: string;
+//   actualRop: string[];
+//   actualRopRemark: string;
+//   actualSqm: string[];
+//   actualSqmRemark: string;
+//   adoptedRop: string[];
+//   adoptedRopRemark: string;
+//   buildingH: string[];
+//   buildingHRemark: string;
+//   ceilingH: string[];
+//   ceilingHRemark: string;
+//   coveragePer: string[];
+//   coveragePerRemark: string;
+//   coverageSqm: string[];
+//   coverageSqmRemark: string;
+//   drawingScale: string[];
+//   drawingScaleRemark: string;
+//   frontSetback: string[];
+//   frontSetbackRemark: string;
+//   leftSetback: string[];
+//   leftSetbackRemark: string;
+//   lengthM: string[];
+//   lengthMRemark: string;
+//   noOfStorey: string[];
+//   noOfStoreyRemark: string;
+//   parkingArea: string[];
+//   parkingAreaRemark: string;
+//   rearSetback: string[];
+//   rearSetbackRemark: string;
+//   rightSetback: string[];
+//   rightSetbackRemark: string;
+//   roadWidthM: string[];
+//   roadWidthMRemark: string;
+//   rowM: string[];
+//   rowMRemark: string;
+//   widthM: string[];
+//   widthMRemark: string;
+// }

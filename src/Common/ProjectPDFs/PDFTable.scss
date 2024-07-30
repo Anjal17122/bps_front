@@ -1,0 +1,27 @@
+.MyProjectPDFs {
+  //   margin: 80px 90px 150px 100px;
+
+  .PDFTable {
+    .title {
+      width: 350px;
+    }
+    .maindata {
+      text-align: center;
+      width: 110px;
+    }
+    .remarks {
+      text-align: center;
+      width: 130px;
+    }
+    .heading {
+      font-weight: bold;
+      text-align: center;
+    }
+    td {
+      padding: 5px 5px;
+    }
+    tr:nth-child(even) {
+      background-color: rgba(233, 233, 233, 0.852);
+    }
+  }
+}

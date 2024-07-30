@@ -1,0 +1,10 @@
+.ActionRow{
+    display: flex;
+    div{
+        margin-right: 10px;
+    }
+    .commentbutton{
+        cursor: pointer;
+        padding: 3px 8px;
+    }
+}

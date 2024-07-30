@@ -1,0 +1,16 @@
+.AddSuperStructure {
+  display: flex;
+  justify-content: center;
+
+  .AddSuperStForm {
+    margin: 10px;
+    padding: 30px 0;
+    width: 700px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.25);
+  }
+}

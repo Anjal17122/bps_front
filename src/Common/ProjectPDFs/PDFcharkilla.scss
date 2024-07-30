@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+#PDFfloor {
+  min-width: 400px !important;
+  width: 655px !important;
+  font-family: "Roboto Condensed", sans-serif;
+  // width: auto !important;
+  box-shadow: none;
+  // .header {
+  //   // font-size: 13px;
+  // }
+  th,
+  td {
+    font-weight: 300;
+    font-size: 13px;
+  }
+}
+
+// .PDFcharkillaDiv {
+//   .ant-descriptions-item-content {
+//     padding: 2px 16px !important;
+//   }
+//   .ant-descriptions-item-label {
+//     padding: 2px 16px !important;
+//   }
+// }

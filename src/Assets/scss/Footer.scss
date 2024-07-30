@@ -1,0 +1,23 @@
+@import "../../Assets/scss/variables.scss";
+
+#Footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito";
+  color: rgb(112, 112, 112);
+  // color: $darkblue1;
+  background-color: rgb(230, 230, 230);
+  padding: 10px 0;
+  border-top: 1px solid rgb(165, 165, 165);
+  border-bottom: 1px solid rgb(165, 165, 165);
+  span {
+    color: rgb(10, 104, 141);
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  // a {
+  //   text-decoration: underline;
+  // }
+}

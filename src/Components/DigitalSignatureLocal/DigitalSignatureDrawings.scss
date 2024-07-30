@@ -1,0 +1,37 @@
+.DrawingSignersDiv {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0px 10px 10px 10px;
+  background-color: white;
+  table {
+    border: 2px solid white;
+    background-color: hsla(266, 87%, 79%, 0.233);
+  }
+  h3 {
+    color: #a0a0a0 !important;
+    font-weight: 400 !important;
+    font-size: 15px;
+  }
+}
+
+.DrawingSignersTable {
+  width: 100%;
+  background-color: #e6e6e652;
+  th {
+    color: skyblue;
+    font-weight: 400;
+  }
+  td {
+    text-align: center;
+  }
+}
+
+.uploadFWrapper {
+  margin: 0 15%;
+}
+
+.drawings_logs_table {
+  .ant-table table {
+    font-size: 11px;
+  }
+}

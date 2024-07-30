@@ -1,0 +1,162 @@
+@import "../../Assets/scss/variables.scss";
+
+.BurgerWrapper {
+  margin: auto 0;
+}
+.NavLogo {
+  display: flex;
+  align-items: center;
+  // padding: 10px 20px;
+  // background: skyblue;
+  h1 {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.NavBarMain {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 2px solid $darkblue1;
+  .flexcontainer {
+    // z-index: 50;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    #BurgerWrapper {
+      display: none;
+    }
+    .NavBarLinks {
+      // font-family: "Montserrat", sans-serif;
+      flex-wrap: wrap;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-right: 4%;
+      .iconNav {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        padding: 2px;
+        // border: 1px solid #666666bb;
+        border-radius: 50px;
+        width: 26px;
+        height: 26px;
+        background-color: rgba(158, 158, 158, 0.212);
+      }
+      a {
+        font-weight: 500;
+        font-size: 1rem;
+        color: rgb(56, 146, 182);
+        text-decoration: none;
+        padding-left: 30px;
+        &:hover {
+          color: $darkblue1;
+        }
+      }
+    }
+  }
+}
+
+.BurgerMenu :hover {
+  cursor: pointer;
+}
+
+.SmallMenu {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.93);
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  right: 0;
+  border-bottom: 1.5px solid $lightgrey4;
+
+  ul {
+    padding-right: 40px;
+    list-style-type: none;
+    li {
+      margin: 10px 0;
+      a {
+        color: $dark3;
+        text-decoration: none;
+        &:hover {
+          color: $darkblue3;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .NavBarMain {
+    padding-right: 0%;
+    .flexcontainer {
+      padding: 0;
+      #BurgerWrapper {
+        display: block;
+      }
+      .NavBarLinks {
+        display: none;
+      }
+    }
+  }
+  .NavLogo {
+    padding-left: 10px;
+    // naksapass pranali h1
+    // h1 {
+    // }
+  }
+}
+
+.MenuBurger {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  a {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .NavBarMain {
+    .flexcontainer {
+      .NavLogo {
+        h1 {
+          font-size: 1.2rem;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .NavBarMain {
+    .flexcontainer {
+      .NavBarLinks {
+        a {
+          padding-left: 7px;
+        }
+        button {
+          padding: 0 6px;
+          font-size: 10px;
+          height: 25px;
+        }
+        // .flag {
+        // display: none;
+        // }
+      }
+    }
+  }
+}

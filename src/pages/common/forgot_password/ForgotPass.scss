@@ -1,0 +1,15 @@
+.ForgotPassWrap {
+  width: 100%;
+  background-color: rgba(190, 190, 190, 0.418);
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .ForgotPass {
+    background-color: white;
+    // padding-top: 100px;
+    width: 500px;
+    padding: 2% 5%;
+    // height: 250px;
+  }
+}

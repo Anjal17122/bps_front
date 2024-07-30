@@ -1,0 +1,28 @@
+.TechnicalMembers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #efecf8;
+  .AddMember {
+    margin: 10px;
+    max-width: 500px;
+    background-color: white;
+    padding: 1% 2%;
+    text-align: center;
+    h2 {
+      padding-bottom: 5px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  }
+  .MembersTable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    min-height: 300px;
+    padding: 20px 2%;
+    background-color: white;
+  }
+}
