@@ -1,0 +1,117 @@
+[
+  {
+    "_id": "ade81519-d3ac-4f62-9aee-be8690e34760",
+    "colId": "1009e4f1-11a0-4fd0-a893-4573f954e30c",
+    "containerId": "",
+    "name": "Create Admin",
+    "url": "https://naksapass-api.nagarjunmun.gov.np/person/perma/admin",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-12T09:50:58.446Z",
+    "modified": "2022-12-12T09:54:57.430Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "token_eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LnN1cGVyYWRtaW5AZ21haWwuY29tIiwiZXhwIjoxNjcwODQwNjcwfQ.cNWdMUK_xH3_GbEqW3voXq1FmLIiyKl06jm4mF3vrGtbtmkEfgEo5shZjFORe80b3AttW6DFNJQIxVltZCEYsA"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nameEng\": \"Test Ward4\",\n  \"nameNep\": \"Test Ward4\",\n  \"email\": \"test.ward4@gmail.com\",\n  \"primaryPhone\": \"9800000\",\n  \"personRoleId\": 4,\n  \"citizenshipNo\": \"111111111111\",\n  \"citizenIssueDist\": \"Butwal\",\n  \"citizenIssueDate\": \"2050-10-10\",\n  \"fatherNameNep\": \"Test Ward4\",\n  \"fatherNameEng\": \"Test Ward4\",\n  \"grandfatherNameEng\": \"Test Ward4\",\n  \"grandfatherNameNep\": \"Test Ward4\",\n  \"gender\": \"male\",\n  \"maritalStatus\": \"unmarried\",\n  \"panNo\": \"11111111111\",\n  \"user\": {\n    \"username\": \"testward4\",\n    \"password\": \"tester121\"\n  },\n  \"addresses\": [\n    {\n      \"provinceId\": 1,\n      \"districtId\": 1,\n      \"municipalityId\": 1,\n      \"wardId\": 1,\n      \"type\": 0,\n      \"toleNep\": \"Test Operator\",\n      \"toleEng\": \"Test Operator\"\n    },\n    {\n      \"provinceId\": 1,\n      \"districtId\": 1,\n      \"municipalityId\": 1,\n      \"wardId\": 1,\n      \"type\": 1,\n      \"toleNep\": \"Test Operator\",\n      \"toleEng\": \"Test Operator\"\n    }\n  ],\n  \"citizenshipFileName\": \"1667204125993_test.jpg\",\n  \"photoFileName\": \"1667204066630_userison.png\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d6642bc3-b718-4903-adfd-5e9573d283da",
+    "colId": "3680e3c5-c92c-4dcc-b7e5-ebe124eecc2c",
+    "containerId": "",
+    "name": "Create Engineer",
+    "url": "https://naksapass-api.dhulikhelmun.gov.np/person/perma/admin",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-25T06:26:06.291Z",
+    "modified": "2022-12-25T06:29:40.034Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "token_eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LnN1cGVyYWRtaW5AZ21haWwuY29tIiwiZXhwIjoxNjcxOTUxNTE1fQ.cDlHhDHLStwpMgZgZScuJijnS_PY-TZbAQ-3W8UNBCTSpmXoA5sJ3ENQIau4YuAoVlDE03r_y23UaZdF5iJJww"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nameEng\": \"Test Engineer\",\n  \"email\": \"test.engineer@gmail.com\",\n  \"primaryPhone\": \"\",\n  \"personRoleId\": 3,\n  \"citizenshipNo\": \"\",\n  \"citizenIssueDist\": \"Butwal\",\n  \"citizenIssueDate\": \"2050-10-10\",\n  \"fatherNameNep\": \"Test Engineer\",\n  \"fatherNameEng\": \"Test Engineer\",\n  \"grandfatherNameEng\": \"Test Engineer\",\n  \"grandfatherNameNep\": \"Test Engineer\",\n  \"gender\": \"male\",\n  \"maritalStatus\": \"unmarried\",\n  \"panNo\": \"\",\n  \"user\": {\n    \"username\": \"test.engineer@gmail.com\",\n    \"password\": \"tester121\"\n  },\n  \"addresses\": [\n    {\n      \"provinceId\": 1,\n      \"districtId\": 1,\n      \"municipalityId\": 1,\n      \"wardId\": 1,\n      \"type\": 0,\n      \"toleNep\": \"Test Engineer\",\n      \"toleEng\": \"Test Engineer\"\n    },\n    {\n      \"provinceId\": 1,\n      \"districtId\": 1,\n      \"municipalityId\": 1,\n      \"wardId\": 1,\n      \"type\": 1,\n      \"toleNep\": \"Test Engineer\",\n      \"toleEng\": \"Test Engineer\"\n    }\n  ],\n  \"citizenshipFileName\": \"1667204125993_test.jpg\",\n  \"photoFileName\": \"1667204066630_userison.png\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7b05e217-cf01-487a-b5da-7fe8bc3d0c71",
+    "colId": "ded4fdea-72a3-4b63-b39c-e7d6e71f3dbf",
+    "containerId": "",
+    "name": "Create Engineer",
+    "url": "https://naksapass-api.mandandeupurmun.gov.np/person/perma/admin",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-26T06:33:03.256Z",
+    "modified": "2022-12-26T06:39:14.810Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "token_eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LnN1cGVyYWRtaW5AZ21haWwuY29tIiwiZXhwIjoxNjcyMDM4MzAyfQ.w2pzuNXHms-bpiSXlGGe4am0rjLPN2uNOfqCOcMIEh88diXUCg7F1VB2uCBBJs4qBPYTjFjd2ayaMF2T5oHWUQ"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nameEng\": \"Test Engineer\",\n  \"email\": \"test.engineer@gmail.com\",\n  \"primaryPhone\": \"\",\n  \"personRoleId\": 3,\n  \"citizenshipNo\": \"\",\n  \"citizenIssueDist\": \"Butwal\",\n  \"citizenIssueDate\": \"2050-10-10\",\n  \"fatherNameNep\": \"Test Engineer\",\n  \"fatherNameEng\": \"Test Engineer\",\n  \"grandfatherNameEng\": \"Test Engineer\",\n  \"grandfatherNameNep\": \"Test Engineer\",\n  \"gender\": \"male\",\n  \"maritalStatus\": \"unmarried\",\n  \"panNo\": \"\",\n  \"user\": {\n    \"username\": \"test.engineer@gmail.com\",\n    \"password\": \"tester121\"\n  },\n  \"addresses\": [\n    {\n      \"provinceId\": 1,\n      \"districtId\": 1,\n      \"municipalityId\": 1,\n      \"wardId\": 1,\n      \"type\": 0,\n      \"toleNep\": \"Test Engineer\",\n      \"toleEng\": \"Test Engineer\"\n    },\n    {\n      \"provinceId\": 1,\n      \"districtId\": 1,\n      \"municipalityId\": 1,\n      \"wardId\": 1,\n      \"type\": 1,\n      \"toleNep\": \"Test Engineer\",\n      \"toleEng\": \"Test Engineer\"\n    }\n  ],\n  \"citizenshipFileName\": \"1667204125993_test.jpg\",\n  \"photoFileName\": \"1667204066630_userison.png\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "da1f0c35-2e4a-424a-99c6-026c47ebfb9f",
+    "colId": "9f7661c4-30f7-4603-9812-377e217be7f6",
+    "containerId": "",
+    "name": "Create Engineer",
+    "url": "https://naksapass-api.dhangadhimaimun.gov.np/person/perma/admin",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-01-06T05:01:16.897Z",
+    "modified": "2023-02-10T11:14:16.362Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "token_eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0LnN1cGVyYWRtaW5AZ21haWwuY29tIiwiZXhwIjoxNjc0NzMxMTE5fQ.oGY-w6vBxJhDzFnHeimVATnl3Wc-f56WN5tMd4-b3NQ4UX7OVmdDYtBlbWaSfuojIl6vNcGx29j5N8WQ5hnx1g"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"nameEng\": \"Test Superadmin\",\r\n  \"nameNep\": \"Test Superadmin\",\r\n  \"email\": \"testsuperadmin\",\r\n  \"primaryPhone\": \"9800000\",\r\n  \"personRoleId\": 7,\r\n  \"citizenshipNo\": \"\",\r\n  \"citizenIssueDist\": \"Butwal\",\r\n  \"citizenIssueDate\": \"2050-10-10\",\r\n  \"fatherNameNep\": \"Test Superadmin\",\r\n  \"fatherNameEng\": \"Test Superadmin\",\r\n  \"grandfatherNameEng\": \"Test Superadmin\",\r\n  \"grandfatherNameNep\": \"Test Superadmin\",\r\n  \"gender\": \"male\",\r\n  \"maritalStatus\": \"unmarried\",\r\n  \"panNo\": \"\",\r\n  \"user\": {\r\n    \"username\": \"test.superadmin@gmail.com\",\r\n    \"password\": \"1914DhangSuAd\"\r\n  },\r\n  \"addresses\": [\r\n    {\r\n      \"provinceId\": 1,\r\n      \"districtId\": 1,\r\n      \"municipalityId\": 1,\r\n      \"wardId\": 1,\r\n      \"type\": 0,\r\n      \"toleNep\": \"Test Operator\",\r\n      \"toleEng\": \"Test Operator\"\r\n    },\r\n    {\r\n      \"provinceId\": 1,\r\n      \"districtId\": 1,\r\n      \"municipalityId\": 1,\r\n      \"wardId\": 1,\r\n      \"type\": 1,\r\n      \"toleNep\": \"Test Operator\",\r\n      \"toleEng\": \"Test Operator\"\r\n    }\r\n  ],\r\n  \"citizenshipFileName\": \"\",\r\n  \"photoFileName\": \"\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2dbf4a7b-b4ad-451f-8aaf-a2c0700d45ca",
+    "colId": "3680e3c5-c92c-4dcc-b7e5-ebe124eecc2c",
+    "containerId": "",
+    "name": "Create Consultant",
+    "url": "https://naksapass-api.dhulikhelmun.gov.np/person",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-02-28T08:04:42.551Z",
+    "modified": "2023-02-28T08:06:43.822Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"nameEng\": \"Test Consultant\",\r\n  \"email\": \"test.consultant@gmail.com\",\r\n  \"primaryPhone\": \"98000000\",\r\n  \"personRoleId\": 1,\r\n  \"citizenshipNo\": \"0000\",\r\n  \"citizenIssueDist\": \"Butwal\",\r\n  \"citizenIssueDate\": \"2050-10-10\",\r\n  \"fatherNameNep\": \"Test Consultant\",\r\n  \"fatherNameEng\": \"Test Consultant\",\r\n  \"grandfatherNameEng\": \"Test Consultant\",\r\n  \"grandfatherNameNep\": \"Test Consultant\",\r\n  \"gender\": \"male\",\r\n  \"maritalStatus\": \"unmarried\",\r\n  \"panNo\": \"0000\",\r\n  \"user\": {\r\n    \"username\": \"test.consultant@gmail.com\",\r\n    \"password\": \"tester121\"\r\n  },\r\n  \"addresses\": [\r\n    {\r\n      \"provinceId\": 1,\r\n      \"districtId\": 1,\r\n      \"municipalityId\": 1,\r\n      \"wardId\": 1,\r\n      \"type\": 0,\r\n      \"toleNep\": \"Test Consultant\",\r\n      \"toleEng\": \"Test Consultant\"\r\n    },\r\n    {\r\n      \"provinceId\": 1,\r\n      \"districtId\": 1,\r\n      \"municipalityId\": 1,\r\n      \"wardId\": 1,\r\n      \"type\": 1,\r\n      \"toleNep\": \"Test Consultant\",\r\n      \"toleEng\": \"Test Consultant\"\r\n    }\r\n  ],\r\n  \"citizenshipFileName\": \"1667204125993_test.jpg\",\r\n  \"photoFileName\": \"1667204066630_userison.png\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

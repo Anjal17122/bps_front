@@ -1,0 +1,514 @@
+@import "./variables.scss";
+
+// @font-face {
+//   font-family: "Preeti";
+//   src: url("../Fonts/Preeti.otf") format("opentype");
+// }
+// @font-face {
+//   font-family: "PreetiBold";
+//   src: url("../Fonts/PreetiBold.ttf") format("truetype");
+// }
+
+.MyTable {
+  .ant-form-item-explain {
+    width: 6px;
+  }
+}
+
+.App {
+  min-height: 100vh;
+}
+.ant-upload-list-item-list-type-text {
+  padding-right: 14px;
+}
+
+h2,
+h3,
+h4,
+h1 {
+  color: $dark1;
+  margin-bottom: 8px;
+}
+a {
+  text-decoration: none;
+}
+
+.ant-dropdown-trigger {
+  cursor: pointer;
+}
+
+.ActionRow {
+  display: flex;
+  align-items: center;
+  div {
+    margin-right: 10px;
+  }
+  .commentbutton {
+    cursor: pointer;
+    padding: 3px 8px;
+  }
+}
+.AntNoStyleBtn {
+  background-color: rgba(128, 128, 128, 0.242);
+  border: 1px solid grey;
+}
+.ant-form-item-explain {
+  color: red;
+}
+.ant-input-number-disabled {
+  // font-weight: bold !important;
+  color: rgb(27, 138, 182);
+}
+.ant-modal-title {
+  font-size: 1.5rem;
+  color: rgba(14, 79, 105, 0.829);
+}
+
+.ant-menu-item .anticon + span,
+.ant-menu-submenu-title .anticon + span {
+  color: #203346ce;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.ant-tabs-tab {
+  border-top: 1px solid #a5a5a5;
+  border-left: 1px solid #a5a5a5;
+  border-right: 1px solid #a5a5a5;
+}
+.ant-tabs-card {
+  > .ant-tabs-nav {
+    .ant-tabs-tab-active {
+      border-top: 1px solid rgba(19, 127, 170, 0.337);
+      border-left: 1px solid rgba(19, 127, 170, 0.337);
+      border-right: 1px solid rgba(19, 127, 170, 0.337);
+      background-color: rgba(19, 127, 170, 0.137);
+    }
+  }
+}
+
+.ant-table {
+  table {
+    tr:nth-child(even) {
+      background-color: rgba(214, 214, 214, 0.34);
+    }
+  }
+}
+.ant-tabs {
+  background-color: white;
+}
+// .ant-tabs-content-holder {
+//   border-top: 1px solid grey;
+// }
+.ant-tabs-nav-wrap {
+  border-bottom: 1px solid grey;
+}
+
+//Ant Design Error message inside input
+
+.ErrorMsgIn {
+  .ant-form-item-control {
+    position: relative;
+    .ant-form-item-explain {
+      position: absolute;
+      bottom: 0;
+      left: 5px;
+    }
+  }
+}
+.ant-tabs-tab-disabled {
+  color: $textDBlue;
+}
+
+.ant-input-number-disabled .ant-input-disabled {
+  color: $textLBlue;
+}
+.ant-input[disabled] {
+  color: $textLBlue;
+}
+
+.ant-cascader-picker-disabled {
+  .ant-cascader-picker-label {
+    color: $textLBlue;
+  }
+}
+.ant-input-number {
+  width: 100%;
+}
+
+.ant-tabs {
+  padding-top: 5px;
+}
+.darkGradient {
+  background: $gradientPbot;
+}
+.nextDiv {
+  padding: 10px 20px 10px 0;
+  background-color: white;
+}
+
+.transparentBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.RadioButtons {
+  border-radius: 4px;
+  border: 1.5px solid $dark4;
+  padding: 0 20px !important;
+  background-color: $lightgrey3;
+  flex-direction: row !important;
+  align-items: center !important;
+  div {
+    padding-bottom: 0 !important;
+    padding-right: 20px !important;
+  }
+}
+
+.Register {
+  padding-top: 50px;
+  // background-color: $bgLightBlue;
+}
+
+.hoverOnPoint {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.textAlignEnd {
+  text-align: end;
+}
+
+.PurpleCard {
+  background-color: #e9dcfa67;
+  padding: 5px 20px 0 20px;
+  margin-bottom: 20px;
+  border: 1.5px solid #c39bf8e8;
+  p {
+    color: rgba(10, 59, 78, 0.755);
+    font-size: 1rem;
+  }
+}
+.ant-upload-picture-card-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  border: 1.5px solid rgb(196, 196, 196) !important;
+}
+#MyUploadWrapper {
+  text-align: center;
+  span {
+    font-size: 1rem;
+  }
+}
+.disabledBtn {
+  margin-top: 8px;
+  color: black !important;
+}
+
+.Login {
+  box-shadow: $boxShadow1;
+  background-color: white;
+  .heading {
+    background-color: $darkblue2;
+    padding: 10px 10%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .FormOnly {
+    padding: 5% 10%;
+  }
+  #forgotPass {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.flexRow {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexColEnd {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.flexSpaceB {
+  display: flex;
+  justify-content: space-between;
+}
+.flexSpaceBC {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.paddingTop {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.paddingTop20 {
+  padding-top: 20px;
+}
+.paddingBot10 {
+  padding-bottom: 10px;
+}
+.paddingLeft20 {
+  padding-left: 20px;
+}
+
+.paddingLeft50 {
+  padding-left: 50px;
+}
+.paddAll20 {
+  padding: 20px;
+}
+.paddingLR50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.paddR20 {
+  padding-right: 20px;
+}
+
+.paddBot50 {
+  padding-bottom: 50px;
+}
+.paddLR15per {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.paddLR23per {
+  padding-left: 23%;
+  padding-right: 23%;
+}
+
+.marginBot50 {
+  margin-bottom: 50px;
+}
+.HeadBar {
+  // width: 100%;
+  background-color: rgb(9, 78, 105);
+  box-shadow: $boxShadow1;
+  padding: 10px 20px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  h1 {
+    padding-bottom: 0;
+    margin: 10px 0;
+    color: white !important;
+    font-weight: normal;
+    // font-size: 1.5rem;
+    // color: #1f3f5e80;
+    .title {
+      color: white;
+      font-size: 2rem;
+      font-weight: 500;
+      // color: #13afdf;
+    }
+  }
+  button {
+    border: none;
+    height: 32px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .HeadBar {
+    h1 {
+      font-size: 1rem;
+    }
+    button {
+      border: none;
+      padding: 5px;
+      font-size: 12px;
+      width: 40px;
+      font-weight: bold;
+    }
+    .NextPrevious {
+      display: none;
+    }
+  }
+}
+.bgwhite {
+  background-color: white;
+}
+.bluehead {
+  // border-top: 3px solid #1890ff;
+  border-bottom: 1.5px solid #188fff49;
+  // background: $gradientLight;
+  display: flex;
+  justify-content: space-between;
+  // button {
+  //   height: 35px;
+  // }
+}
+.gradientbg {
+  background: $gradientLight;
+}
+
+#rollingGif {
+  width: 100%;
+  // position: sticky;
+  top: 60px;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CenterForm {
+  margin: 0 18%;
+  background-color: white;
+  padding: 2%;
+  box-shadow: $boxShadow1;
+}
+
+.CenterForm10 {
+  margin: 0 10%;
+  background-color: rgba(221, 221, 221, 0.048);
+  // padding-top: 10px;
+  box-shadow: $boxShadow1;
+}
+
+.CenterForm5 {
+  margin: 0 5%;
+  background-color: rgb(233, 233, 233);
+  // background-color: white;
+  // padding: 2%;
+  box-shadow: $boxShadow1;
+}
+
+.CenterForm30 {
+  margin: 0 25%;
+  background-color: white;
+  padding: 2%;
+  box-shadow: $boxShadow1;
+}
+
+.CheckLandOwner {
+  display: flex;
+  font-size: 1.2rem;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  span {
+    font-size: 15px;
+  }
+}
+
+.TableHead {
+  // width: 100%;
+  background-color: rgb(235, 227, 227);
+  padding: 10px 0;
+  // box-shadow: $boxShadow1;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  display: flex;
+  // background: $gradientLight;
+  flex-wrap: wrap;
+  input {
+    border: 1px solid gray;
+  }
+}
+
+.withShadow {
+  box-shadow: $boxShadow1;
+}
+.marginAll {
+  margin: 50px;
+}
+.marginAll20 {
+  margin: 20px;
+}
+.darkBG {
+  background-color: black;
+}
+
+.padd5 {
+  padding: 2% 5%;
+}
+
+.shrink {
+  padding: 0 10%;
+}
+.TableWrapper {
+  box-shadow: $boxShadow1;
+}
+.ant-picker-input {
+  input {
+    width: 70px;
+    font-size: 14px;
+  }
+}
+.MySearch {
+  width: 170px;
+  button {
+    background-color: rgb(172, 172, 172);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  // box-shadow: 2px 3px 4px 4px rgb(241, 241, 241);
+}
+
+@media only screen and (max-width: 1050px) {
+  .CenterForm {
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Register {
+    #Row1 {
+      flex-flow: column-reverse wrap;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .CenterForm10 {
+    margin: 0;
+  }
+  .CenterFormsm {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .CenterForm30 {
+    margin: 0;
+  }
+}
+.CenterFormsm {
+  margin: 0 5%;
+  background-color: rgba(10, 62, 83, 0.24);
+  padding-top: 10px;
+  box-shadow: $boxShadow1;
+}
+
+.ant-tabs-content {
+  .MyTableOuter {
+    overflow-x: hidden;
+  }
+}

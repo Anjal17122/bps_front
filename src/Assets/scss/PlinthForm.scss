@@ -1,0 +1,32 @@
+.PlinthUploadDiv {
+  // width: 90%;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.25);
+  background-color: white;
+  padding-top: 20px;
+  margin: 1% 0;
+  h2 {
+    padding-bottom: 5px;
+  }
+  .divCol {
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+.HeaderFirstDiv {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+
+  .GoBackPlinthBtn {
+    color: white;
+    background-color: transparent;
+  }
+}
+
+.PlinthForm {
+  .MyTableOuter {
+    padding: 1% 2%;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.25);
+  }
+}

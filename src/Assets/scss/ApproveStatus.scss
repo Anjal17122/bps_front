@@ -1,0 +1,13 @@
+.ApproveStatus {
+  border: 1px solid rgb(235, 235, 235);
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: -5px 30px 197px 1200px rgba(0, 0, 0, 0.5);
+  //   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  //     rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+  opacity: 1;
+  span {
+    font-size: 11px;
+  }
+}

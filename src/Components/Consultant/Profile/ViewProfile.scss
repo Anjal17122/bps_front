@@ -1,0 +1,25 @@
+.ViewProfile {
+  background-color: rgb(245, 245, 245);
+}
+
+.ViewProfileDiv1 {
+  display: flex;
+  justify-content: space-between;
+  .DigiSignCard {
+    .ant-card,
+    .ant-card-actions {
+      background-color: rgba(236, 236, 236, 0.36);
+    }
+    .ant-card {
+      border: 1px solid rgba(184, 184, 184, 0.699);
+    }
+  }
+}
+
+.ProfileView {
+  display: flex;
+  // padding-top: 50px;
+  // .ant-descriptions-item-label {
+  //   color: #65b1f8;
+  // }
+}

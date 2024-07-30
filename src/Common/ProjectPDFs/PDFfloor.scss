@@ -1,0 +1,13 @@
+#PDFfloor {
+  min-width: 400px !important;
+  font-family: "Roboto Condensed", sans-serif;
+  width: auto !important;
+  box-shadow: none;
+  .header {
+    font-size: 14px;
+  }
+  th,
+  td {
+    font-weight: 300;
+  }
+}

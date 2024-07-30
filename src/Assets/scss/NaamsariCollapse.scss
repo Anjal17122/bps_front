@@ -1,0 +1,81 @@
+[data-theme="compact"] {
+  .site-collapse-custom-collapse {
+    .site-collapse-custom-panel {
+      margin-bottom: 24px;
+      overflow: hidden;
+      background: #f7f7f7;
+      border: 0px;
+      border-radius: 2px;
+    }
+  }
+}
+.site-collapse-custom-collapse {
+  .site-collapse-custom-panel {
+    margin-bottom: 24px;
+    overflow: hidden;
+    background: #f7f7f7;
+    border: 0px;
+    border-radius: 2px;
+  }
+}
+.MyCollapse {
+  .ant-collapse-header {
+    background-color: rgba(128, 128, 128, 0.103);
+    margin-bottom: 10px;
+  }
+  .myheader {
+    width: 100%;
+    color: rgba(9, 74, 100, 0.637);
+    display: flex;
+    .maindiv {
+      align-items: center;
+      display: flex;
+      flex: 1;
+      .name {
+        padding: 0 2%;
+        color: rgba(9, 74, 100, 0.937);
+        font-size: 1rem;
+      }
+    }
+  }
+  .landData {
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    .mainDiv {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+    .landid {
+      color: rgba(9, 74, 100, 0.637);
+      span {
+        color: rgba(9, 74, 100, 0.937);
+        font-size: 13px;
+      }
+    }
+    .LandOwner {
+      padding-left: 2%;
+      color: rgba(9, 74, 100, 0.937);
+      font-size: 14px;
+      span {
+        padding-right: 5px;
+        color: rgba(9, 74, 100, 0.637);
+        font-size: 12px;
+      }
+    }
+  }
+  //   .ant-collapse-content-box {
+  //     // background-color: rgba(205, 224, 231, 0.363);
+  //   }
+}
+
+.naamsariDropdown {
+  font-size: 14px;
+  color: rgba(36, 156, 204, 0.912);
+}
+
+.nsDropDownDisabled {
+  font-size: 14px;
+  color: rgba(102, 101, 101, 0.726);
+}

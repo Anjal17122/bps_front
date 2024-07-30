@@ -1,0 +1,13 @@
+.EsewaButton {
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  font-family: "Nunito";
+  background: #77b300;
+  color: white;
+  height: 40px;
+  border-radius: 4px;
+  &:hover {
+    background: #77b300ce;
+  }
+}

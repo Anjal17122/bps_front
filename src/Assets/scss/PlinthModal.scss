@@ -1,0 +1,48 @@
+.SelectUserModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  .ant-modal-content {
+    border-radius: 6px;
+    width: 650px;
+  }
+  h3 {
+    color: #0d437a !important;
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  .Title {
+    width: 600px;
+    background-color: pink;
+  }
+  .FirstRow {
+    padding-bottom: 20px;
+    .ColFirst {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+    }
+    .reportRows {
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  .yellowButton {
+    background-color: #ffad30;
+  }
+  button {
+    margin-left: 10px;
+  }
+  .greenButton {
+    background-color: #26d49b;
+  }
+  .redButton {
+    background-color: rgb(238, 106, 123);
+  }
+}

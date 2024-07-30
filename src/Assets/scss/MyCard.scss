@@ -1,0 +1,26 @@
+@import "../../Assets/scss/variables.scss";
+
+.MyCard {
+  //   border-top: 2px solid grey;
+  background-color: $lightblue1;
+  min-width: 280px;
+  height: 140px;
+  background: $gradientPbot;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: $bigShadow;
+  margin: 20px;
+  transition: transform 0.2s;
+  div {
+    width: 220px;
+    text-align: center;
+    // background-color: wheat;
+  }
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 16px 4px rgba(0, 21, 41, 0.45);
+  }
+}

@@ -1,0 +1,18 @@
+.DigitalSigners {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.448);
+  .AddSignerCard {
+    width: 500px;
+    background-color: white;
+    padding: 10px 20px 0px 20px;
+    margin: 10px 10px 30px 10px;
+  }
+
+  .SignersTable {
+    width: 600px;
+    background-color: white;
+  }
+}

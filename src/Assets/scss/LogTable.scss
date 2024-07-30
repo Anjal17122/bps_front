@@ -1,0 +1,31 @@
+.LogTable {
+  min-width: 300px;
+  overflow-x: auto;
+  overflow-y: auto;
+  // height: 800px;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgba(15, 69, 88, 0.981);
+  background-color: white;
+  // color: rgb(99, 97, 97);
+
+  th {
+    font-weight: 500;
+    padding: 2px 8px;
+    text-align: left;
+    background-color: rgba(170, 170, 170, 0.25);
+    // background-color: rgb(223, 223, 223);
+    color: rgba(15, 68, 88, 0.512);
+    border-right: 1px solid rgb(182, 182, 182);
+    border-top: 1px solid rgb(182, 182, 182);
+    border-left: 1px solid rgb(182, 182, 182);
+  }
+  td {
+    // min-width: 100px;
+    border: 1px solid #ddd;
+    padding: 2px 4px;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(214, 214, 214, 0.84);
+  }
+}

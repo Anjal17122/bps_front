@@ -1,0 +1,17 @@
+@import "../../Assets/scss/variables.scss";
+.OrgRegWrapper {
+  //   margin: 0 1%;
+  margin: 0 4%;
+  border: 1.5px solid rgb(180, 180, 180);
+  border-radius: 4px;
+  box-shadow: $boxShadow1;
+  background-color: rgb(252, 252, 252);
+
+  .HeadinOrgReg {
+    text-align: center;
+    margin: 30px 0;
+  }
+  .OrgReg {
+    margin: 0 2%;
+  }
+}

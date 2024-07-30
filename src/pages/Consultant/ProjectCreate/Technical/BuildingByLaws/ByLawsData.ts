@@ -1,0 +1,127 @@
+export interface BuildingAreaTyp {
+  nature: string[];
+  natureRemark: string;
+  zone: string[];
+  zoneRemark: string;
+  subzone: string[];
+  subzoneRemark: string;
+  plinthArea: string;
+  plinthAreaRemark: string;
+  buildingArea: number;
+  buildingAreaRemark: string;
+  highTClass: string[];
+  highTClassRemark: string;
+  highTSetback: number;
+  highTSetbackRemark: string;
+  riverClass: string[];
+  riverClassRemark: string;
+  riverSetback: string[];
+  riverSetbackRemark: string;
+}
+
+export interface LandareaTyp {
+  actualSqm?: string;
+  actualSqmRemark?: string;
+  actualRop?: string;
+  actualRopRemark?: string;
+  adoptedRop?: string[];
+  adoptedRopRemark?: string;
+  CulDeSac?: string[];
+  CulDeSacRemark?: string;
+  FAR?: string;
+  FARRemark?: string;
+  coverageSqm?: string;
+  coverageSqmRemark?: string;
+  coveragePer?: string;
+  coveragePerRemark?: string;
+  buildingH?: string;
+  buildingHRemark?: string;
+  ceilingH?: string;
+  ceilingHRemark?: string;
+  drawingScale?: string[];
+  drawingScaleRemark?: string;
+  frontSetback?: string;
+  frontSetbackRemark?: string;
+  leftSetback?: string;
+  leftSetbackRemark?: string;
+  lengthM?: string;
+  lengthMRemark?: string;
+  noOfStorey?: string;
+  noOfStoreyRemark?: string;
+  parkingArea?: string;
+  parkingAreaRemark?: string;
+  rearSetback?: string;
+  rearSetbackRemark?: string;
+  rightSetback?: string;
+  rightSetbackRemark?: string;
+  roadWidthM?: string;
+  roadWidthMRemark?: string;
+  rowM?: string;
+  rowMRemark?: string;
+  widthM?: string;
+  widthMRemark?: string;
+}
+
+export interface BuildingAreaTypPDF {
+  nature: string;
+  natureRemark: string;
+  zone: string;
+  zoneRemark: string;
+  subzone: string;
+  subzoneRemark: string;
+  plinthArea: string;
+  plinthAreaRemark: string;
+  buildingArea: string;
+  buildingAreaRemark: string;
+  highTClass: string;
+  highTClassRemark: string;
+  highTSetback: string;
+  highTSetbackRemark: string;
+  riverClass: string;
+  riverClassRemark: string;
+  riverSetback: string;
+  riverSetbackRemark: string;
+}
+
+export interface LandareaTypPDF {
+  actualSqm?: string;
+  actualSqmRemark?: string;
+  actualRop?: string;
+  actualRopRemark?: string;
+  adoptedRop?: string;
+  adoptedRopRemark?: string;
+  CulDeSac?: string;
+  CulDeSacRemark?: string;
+  FAR?: string;
+  FARRemark?: string;
+  coverageSqm?: string;
+  coverageSqmRemark?: string;
+  coveragePer?: string;
+  coveragePerRemark?: string;
+  buildingH?: string;
+  buildingHRemark?: string;
+  ceilingH?: string;
+  ceilingHRemark?: string;
+  drawingScale?: string;
+  drawingScaleRemark?: string;
+  frontSetback?: string;
+  frontSetbackRemark?: string;
+  leftSetback?: string;
+  leftSetbackRemark?: string;
+  lengthM?: string;
+  lengthMRemark?: string;
+  noOfStorey?: string;
+  noOfStoreyRemark?: string;
+  parkingArea?: string;
+  parkingAreaRemark?: string;
+  rearSetback?: string;
+  rearSetbackRemark?: string;
+  rightSetback?: string;
+  rightSetbackRemark?: string;
+  roadWidthM?: string;
+  roadWidthMRemark?: string;
+  rowM?: string;
+  rowMRemark?: string;
+  widthM?: string;
+  widthMRemark?: string;
+}

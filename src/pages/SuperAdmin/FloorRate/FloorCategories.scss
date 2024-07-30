@@ -1,0 +1,89 @@
+.FloorCategories {
+  display: flex;
+  .CategoryCard {
+    position: relative;
+    min-height: 300px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: hsla(207, 100%, 63%, 0.0556);
+    border: 1px solid hsla(207, 100%, 63%, 0.426);
+    margin: 5px;
+    border-radius: 4px;
+    .RightTop {
+      top: 5px;
+      right: 5px;
+      position: absolute;
+      button {
+        border: none;
+      }
+    }
+
+    ul {
+      margin-top: 20px;
+      li {
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+        color: rgba(15, 69, 88, 0.781);
+        margin-top: 8px;
+        border-radius: 4px;
+        padding: 5px 6%;
+        background-color: white;
+      }
+    }
+
+    h4 {
+      color: black;
+      font-family: "Nunito";
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+#myUL {
+  min-height: 300px;
+  padding-top: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  button {
+    border: none;
+  }
+  //   padding: 0;
+}
+
+.caret {
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &::before {
+    content: "\25B6";
+    border: none;
+    color: #40a9ff;
+    display: inline-block;
+    margin-right: 6px;
+  }
+}
+
+.caret-down {
+  &::before {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+.nested {
+  li {
+    color: rgba(15, 69, 88, 0.781);
+  }
+}
+.active {
+  display: block;
+}

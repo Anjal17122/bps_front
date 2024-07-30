@@ -1,0 +1,67 @@
+.DesignFloorTable {
+  padding: 20px;
+  min-width: 800px;
+  //   min-height: 500px;
+  overflow-x: auto;
+  overflow-y: auto;
+  // height: 800px;
+  border-collapse: collapse;
+  //   width: 100%;
+  color: rgba(15, 69, 88, 0.981);
+  font-family: "Nunito";
+  background-color: rgb(255, 255, 255);
+  // color: rgb(99, 97, 97);
+  //   .TableHeading111 {
+  //     font-weight: 600;
+  //   }
+  thead {
+    tr {
+      th {
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+        background-color: rgb(245, 245, 245);
+        // border-top: 1px solid rgb(182, 182, 182);
+      }
+    }
+  }
+
+  th {
+    font-weight: 500;
+    padding: 6px 8px;
+    text-align: left;
+    background-color: rgba(170, 170, 170, 0.08);
+    // background-color: rgb(223, 223, 223);
+    color: rgba(15, 68, 88, 0.512);
+    border-right: 0.5px solid rgba(182, 182, 182, 0.664);
+    border-top: 0.5px solid rgba(182, 182, 182, 0.664);
+    border-left: 0.5px solid rgba(182, 182, 182, 0.664);
+  }
+  td {
+    // min-width: 100px;
+    border: 1px solid rgba(221, 221, 221, 0.284);
+    padding: 6px;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(214, 214, 214, 0.623);
+  }
+  // tr:hover {
+  // background-color: rgb(233, 233, 233);
+  // }
+  tfoot {
+    font-weight: bold;
+    color: #083e53;
+    // border-top: 2px solid skyblue;
+    // border-bottom: 2px solid skyblue;
+    td {
+      border-right: none;
+      border-left: none;
+      // background: linear-gradient(to bottom, #ebebeb 0%, white 50%, #ebebeb 100%);
+      // background-color: rgb(168, 222, 241);
+      // padding: 20px 8px;
+    }
+  }
+}
+.RevenueFooter {
+  border: 2px solid #a855f7;
+}

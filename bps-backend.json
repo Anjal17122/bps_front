@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "BPS chandrapur 5000",
+      "script": "java -jar /home/ubuntu/bps/jars/bps-backend.jar"
+    }
+  ]
+}

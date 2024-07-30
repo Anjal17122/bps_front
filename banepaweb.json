@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "banepa3000",
+      "script": "pm2 bun serve -s /root/bps/digi/build 3000 --spa --name=banepa3000"
+    }
+  ]
+}

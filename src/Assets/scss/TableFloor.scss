@@ -1,0 +1,49 @@
+.FloorTableCover {
+  overflow-x: auto;
+  overflow-y: hidden;
+  font-family: "Nunito";
+  // max-height: 600px;
+
+  // overflow: inherit;
+  background-color: white;
+  .FloorTable {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 800px;
+    // overflow-x: auto;
+    // overflow-y: auto;
+    th {
+      padding: 6px 8px;
+      text-align: center;
+      border-right: 1px solid white;
+      border-top: 1px solid white;
+      border-left: 1px solid white;
+      background-color: rgb(240, 240, 240);
+    }
+    td {
+      min-width: 30px;
+      border: 1px solid #ddd;
+      padding: 6px;
+    }
+    tr:nth-child(even) {
+      background-color: #e4e4e4;
+    }
+    // tr:hover {
+    // background-color: rgb(233, 233, 233);
+    // }
+    tfoot {
+      font-weight: bold;
+      color: #083e53;
+      // border-top: 2px solid skyblue;
+      // border-bottom: 2px solid skyblue;
+      td {
+        border-right: none;
+        border-left: none;
+        background-color: white;
+        // background: linear-gradient(to bottom, #ebebeb 0%, white 50%, #ebebeb 100%);
+        // background-color: rgb(168, 222, 241);
+        // padding: 20px 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.file-container {
+  position: relative;
+}
+
+.file-container .delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: rgba(229, 229, 229, 0.874);
+  border: 1px solid rgb(204, 204, 204);
+  color: rgb(132, 33, 33);
+  border-radius: 4px;
+}
+.file-container:hover {
+  background: rgba(232, 232, 232, 0.523);
+}
+.file-container ul:hover {
+  background: white;
+}

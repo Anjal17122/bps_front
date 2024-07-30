@@ -1,0 +1,14 @@
+// add_header X-Frame-Options "SAMEORIGIN";
+// add_header Strict-Transport-Security "max-age=63072000; includeSubDomains";
+// add_header X-Content-Type-Options "nosniff";
+// add_header Content-Security-Policy "frame-ancestors 'self' *.navya.com.np";
+// add_header Cross-Origin-Opener-Policy "same-origin";
+// add_header cross-origin-resource-policy "same-origin";
+// add_header X-XSS-Protection "1; mode=block";
+// add_header X-Content-Type-Options "nosniff";
+// add_header Cross-Origin-Opener-Policy "same-origin";
+// add_header Referrer-Policy "no-referrer";
+// add_header X-Powered-By "Express";
+const test = "hello\\ts";
+const final = test.replaceAll(`\\`, "/");
+console.log(final);
